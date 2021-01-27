@@ -1,0 +1,28 @@
+{
+  "name": "zv-mongo-query-handler",
+  "version": "1.0.0",
+  "description": "Provides filtering, sorting, projecting, and paginating with MongoDB, through the Mongoose driver, using query string parameters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/popoybvargas/mongo-query-handler.git"
+  },
+  "keywords": [
+    "mongodb",
+    "query string",
+    "mongoose",
+    "filter",
+    "sort",
+    "project",
+    "paginate"
+  ],
+  "author": "Popoy Vargas <popoyvargas@me.com> (https://teamzv.rocks)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/popoybvargas/mongo-query-handler/issues"
+  },
+  "homepage": "https://github.com/popoybvargas/mongo-query-handler#readme"
+}
