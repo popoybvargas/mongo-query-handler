@@ -1,6 +1,6 @@
 {
   "name": "zv-mongo-query-handler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides filtering, sorting, projecting, and paginating with MongoDB, through the Mongoose driver, using query string parameters.",
   "main": "mongoQueryHandler.js",
   "scripts": {
