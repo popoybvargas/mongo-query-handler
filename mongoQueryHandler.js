@@ -23,7 +23,7 @@ module.exports = class
   {
     if (this.reqQueryObj.sort)
     {
-      const sortBy = this.reqQueryObj.sort.split(',').join(' ');
+      const sortBy = Array.isArray(this.reqQueryObj.sort) ? this.reqQueryObj.sort.join(' ') : this.reqQueryObj.sort.split(',').join(' ');
       this.query = this.query.sort(sortBy);
     }
     else this.query = this.query.sort('-createdAt');
